@@ -1,12 +1,17 @@
 import './bootstrap';
+import '../css/app.css'
 
 import { createApp } from 'vue';
 import App from './components/App.vue';
-import Products from './components/Products.vue';
+import Navbar from './components/Navbar.vue';
+import Networks from './components/Networks.vue'
+
+import 'primeicons/primeicons.css'
 
 const app = createApp();
 
 app.component('app', App)
-app.component('products', Products)
+app.component('navbar', Navbar)
+app.component('networks', Networks)
 
 app.mount('#app');

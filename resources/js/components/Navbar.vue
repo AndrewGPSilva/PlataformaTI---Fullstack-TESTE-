@@ -1,0 +1,40 @@
+<template>
+    <section class="bg-black text-white h-screen p-5" id="navbar">
+        <div>
+            <a href="/"><img src="../../../public/logoV2.png" alt="Logo da Plataforma"></a>
+        </div>
+        <div>
+            <ul class="mt-8">
+                <h1 class="text-orange-500 font-bold">Conteúdos Disponíveis</h1>
+                <a href="/aulasjava">
+                    <li class="mt-4 text-2xl text-gray-400">Java</li>
+                </a>
+                <li class="text-2xl text-gray-400">PHP</li>
+                <li class="text-2xl text-gray-400">Spring</li>
+                <a href="/aulasvue">
+                    <li class="text-2xl text-gray-400">Vue Js</li>
+                </a>
+                <li class="text-2xl text-gray-400">Laravel</li>
+            </ul>
+        </div>
+        <Networks />
+    </section>
+</template>
+
+<script>
+import Networks from './Networks.vue';
+
+export default {
+    name: "Navbar",
+    components: {
+        Networks
+    }
+}
+</script>
+
+<style scoped>
+#navbar {
+    border-right: 3px solid #333;
+    height: 100%;
+}
+</style>
