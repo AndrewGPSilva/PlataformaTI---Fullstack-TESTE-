@@ -1,5 +1,6 @@
 @extends('master')
 
+@section('titulo', 'Inicio - Plataforma de TI')
 @section('content')
     <div class="flex">
         <div class="w-1/5">
