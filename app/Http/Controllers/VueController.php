@@ -9,6 +9,6 @@ class VueController extends Controller
     public function index()
     {
         $aulas = Vue::all();
-        return view("vuehome")->with('aulas', $aulas);
+        return view("VueViews/vuehome")->with('aulas', $aulas);
     }
 }

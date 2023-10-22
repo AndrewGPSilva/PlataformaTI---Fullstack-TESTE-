@@ -5,7 +5,7 @@ import { createApp } from 'vue';
 import App from './components/App.vue';
 import Navbar from './components/Navbar.vue';
 import Networks from './components/Networks.vue'
-import HomeAulasVue from './components/VueView/HomeAulasVue.vue'
+import HomeAulasVue from './components/VueComponents/HomeAulasVue.vue'
 
 import 'primeicons/primeicons.css'
 
