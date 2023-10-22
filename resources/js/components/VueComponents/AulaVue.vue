@@ -7,7 +7,7 @@
             <div class="w-full text-center">
                 <h1><a href="https://www.youtube.com/channel/UC7L-jcONEz0AG56nfSQiXvA" target="_blank"><i class="pi pi-youtube text-red-700"></i></a></h1>
                 <a href="/aulasvue">
-                    <h1 class="flex justify-center items-center">VUE JS</h1>
+                    <h1 class="flex justify-center items-center text-orange-500 font-bold">VUE JS</h1>
                 </a>
                 <div class="flex flex-col">
                     <a href="https://www.youtube.com/watch?v=3gpJ-te_HHg" target="_blank">

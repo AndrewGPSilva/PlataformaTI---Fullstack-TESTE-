@@ -5,9 +5,9 @@
         </header>
         <main class="bg-black text-white flex flex-col justify-center items-center p-5 w-4/5">
             <h1 class="text-orange-500 text-2xl">Aulas de Vue Js Disponíveis:</h1>
-            <div v-for="(aula, i) in aulas" :key="i" class="flex p-3">
-                <div class="flex items-center">
-                    <img :src="aula.imagem" alt="Thumbnail do vídeo" class="w-1/4 h-3/4 mr-5">
+            <div v-for="(aula, i) in aulas" :key="i" class="flex p-3 w-4/5">
+                <div class="flex items-center border-b-2">
+                    <img :src="aula.imagem" alt="Thumbnail do vídeo" class="h-3/4 mr-5">
                     <div class="flex flex-col">
                         <a :href="'/aulasvue/' + aula.id" class="text-blue-500">{{ aula.titulo }}</a>
                         <p>{{ aula.descricao }}</p>
@@ -33,4 +33,7 @@ export default {
 </script>
 
 <style scoped>
+img {
+    width: 250px;
+}
 </style>
