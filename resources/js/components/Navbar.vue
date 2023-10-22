@@ -1,7 +1,6 @@
 <template>
     <section class="bg-black text-white h-screen p-5" id="navbar">
-        <div>
-            <!-- <a href="/"><img src="../../../public/logoV2.png" alt="Logo da Plataforma"></a> -->
+        <div class="flex justify-center">
             <a href="/"><img src="@@/logoV2.png" alt="Logo da Plataforma"></a>
         </div>
         <div>
@@ -35,5 +34,9 @@ export default {
 #navbar {
     border-right: 3px solid #333;
     height: 100%;
+}
+
+img {
+    width: 180px;
 }
 </style>
