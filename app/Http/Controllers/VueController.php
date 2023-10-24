@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\Vue;
+use Illuminate\View\View;
 
 class VueController extends Controller
 {
-    public function index()
+    public function index(): View
     {
         $aulas = Vue::all();
         return view("VueViews/vuehome")->with('aulas', $aulas);

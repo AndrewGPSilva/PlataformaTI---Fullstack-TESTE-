@@ -13,7 +13,9 @@
                 <a href="/aulasvue">
                     <li class="text-2xl text-gray-400">Vue Js</li>
                 </a>
-                <li class="text-2xl text-gray-400">Laravel</li>
+                <a href="/aulaslaravel">
+                    <li class="text-2xl text-gray-400">Laravel</li>
+                </a>
                 <li class="text-2xl text-gray-400">Python</li>
             </ul>
         </div>
