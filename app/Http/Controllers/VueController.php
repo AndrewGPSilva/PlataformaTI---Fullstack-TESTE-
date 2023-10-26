@@ -7,7 +7,7 @@ use Illuminate\View\View;
 
 class VueController extends Controller
 {
-    public function index(): View
+    public function index()
     {
         $aulas = Vue::all();
         return view("VueViews/vuehome")->with('aulas', $aulas);
