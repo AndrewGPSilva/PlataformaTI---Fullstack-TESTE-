@@ -18,4 +18,17 @@ class VueController extends Controller
         $aula = Vue::findOrFail($id);
         return view("VueViews/aula")->with('aula', $aula);
     }
+
+    public function destroy($id)
+{
+    $aula = Vue::find($id);
+
+    if (!$aula) {
+        return response()->json(['message' => 'Aula não encontrada'], 404);
+    }
+
+    $aula->delete();
+
+    return response()->json(['message' => 'Aula excluída com sucesso']);
+}
 }
